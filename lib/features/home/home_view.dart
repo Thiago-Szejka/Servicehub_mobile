@@ -1,10 +1,11 @@
-
 import 'package:flutter/material.dart';
+import 'package:servicehub_mobile/features/home/home_body.dart';
 
 class HomeView extends StatefulWidget{
   @override
   State<HomeView> createState(){ 
-    return _HomeViewState();
+    return 
+    _HomeViewState();
   }
 }
 
@@ -13,6 +14,9 @@ class _HomeViewState extends State<HomeView>{
   Color _titleColor = Colors.black;
   @override
   Widget build(BuildContext context) {
+
+    HomeBody();
+    
     return Scaffold(
       
 
@@ -45,13 +49,8 @@ class _HomeViewState extends State<HomeView>{
         ],
       ),
       
-      body: Center(
-        child: Text(
-          "Teste123"
-        ),
+      body: HomeBody(),
         
-      ),
-
-    );
+      );
   }
 }
