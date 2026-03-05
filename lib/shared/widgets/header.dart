@@ -22,7 +22,7 @@ class Header extends StatelessWidget{
               ),
             ),
             SizedBox(height: 5,),
-            Text('Continue no nosso App',
+            Text('Encontre serviços perto de você!',
             style: TextStyle(
               fontSize: 15,
             ),
